@@ -1,0 +1,48 @@
+:root {
+    --secondary: #3B82F6;
+}
+
+.nav-list {
+  transition: .4s all;  
+  cursor: pointer;
+  width: fit-content;
+}
+
+.nav-list a {
+  position: relative;
+  display: inline-block;      /* makes the anchor width equal the text width */
+  text-decoration: none;
+  padding-bottom: 0.125rem;   /* gives space for the underline if needed */
+}
+
+.nav-list:hover,
+.nav-list:focus {
+    color: var(--secondary);
+
+}
+
+.nav-list a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: var(--underline-bottom, 0);   /* allows per-link offset via CSS var */
+  width: 100%;                          /* matches the width of the anchor text */
+  height: var(--underline-thickness, 0.12em); /* thickness that scales with font-size */
+  background: var(--secondary);             /* underline uses the link color */
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform 220ms ease;
+}
+
+
+
+.nav-list a:hover::after,
+.nav-list a:focus::after {
+  transform: scaleX(1);
+}
+
+.second-half {
+    background-image: url('../../public/images/home-hero.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
