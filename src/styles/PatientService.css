@@ -9,7 +9,6 @@
 }
 
 .nav-list a {
-  text-align: start;
   position: relative;
   display: inline-block;      /* makes the anchor width equal the text width */
   text-decoration: none;
@@ -40,10 +39,4 @@
 .nav-list a:hover::after,
 .nav-list a:focus::after {
   transform: scaleX(1);
-}
-
-.second-half {
-    background-image: url('../../public/images/home-hero.png');
-    background-repeat: no-repeat;
-    background-size:cover;
 }

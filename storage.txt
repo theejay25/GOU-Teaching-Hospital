@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/index.css">
+  <title>Gou-Teaching-Hospital | Home</title>
+</head>
+<body>
+
+  <!-- Nav Link section -->
+
+  <div class="items-baseline p-5 flex flex-row justify-between">
+    
+    <ul class="flex lg:flex-row gap-[1.5rem] relative">
+      <li class="nav-list"><a href="#">Home</a></li>
+      <li class="nav-list"><a href="#">Departments</a></li>
+      <li class="nav-list"><a href="#">Students &amp; Training</a></li>
+      <li class="nav-list"><a href="#">Emergency</a></li>
+      <li class="nav-list"><a href="#">News and Events</a></li>
+      <li class="nav-list"><a href="../gou-TH/src/pages/PateintServices.html">Patient Services</a></li>
+      <li class="nav-list"><a href="#">Contacts</a></li>
+    </ul>
+
+    <input type="button" value="Login" class="mr-5 px-3 py-2 bg-[#3B82F6] text-white rounded-sm duration-1250 cursor-pointer hover:bg-[#2b65c3]">
+  </div>
+
+  <!-- Hero Section -->
+
+  <div class="hero-container w-full h-[28rem] flex flg:lex-row border-b-1 border-b-[#b7b7b7]">
+    
+    <div class="first-half w-[50%] flex justify-center flex-col items-center">
+
+      <h3 class="font-bold text-[2.3rem] w-[28rem]">HealthLink Hospital: Leading the Future of Healthcare and Medical Education</h3>
+
+      <p class="translate-x-[-50%] ml-[47.5%]">Empowering healing and discovery through advanced patient care, groundbreaking research, and comprehensive medical training, fostering a healthier community.</p>
+
+    </div>
+
+    <div class="second-half w-[50%]">
+
+    </div>
+
+  </div>
+
+  <!-- Learn more -->
+
+  <div class="w-full h-[27rem] flex justify-center items-center bg-[#fafafb] flex-col">
+    <h3 class="font-bold text-[2.2rem] mb-4">A Legacy of Care and Innovation</h3>
+    <p class="text-teal-600 w-[30rem] mb-5">
+      For over a century, HealthLink Hospital has been at the 
+      forefront of medical excellence, serving our community with 
+      unparalleled dedication. As a leading teaching hospital, we 
+      are committed to advancing healthcare through pioneering research, 
+      comprehensive education, and compassionate patient care.
+    </p>
+    <button class="border-1 border-[#333] rounded-full px-5 cursor-pointer py-2 duration-1250 hover:bg-[#3B82F6]/70">
+      Learn More
+    </button>
+  </div>
+
+  <!-- Quick Access -->
+
+  <div class=" w-full h-[27rem]  flex justify-center items-center flex-col">
+    <h3 class="font-bold text-[2.2rem] mb-5">Quick Access & Services</h3>
+    
+    <div class=" w-full h-[57%] flex justify-around items-center">
+     
+      <div class="flex justify-center items-center flex-col h-fit w-[20%]">
+        <img src="public/images/calendar.png" width="40px" alt="">
+        <h5 class="font-bold ">Appointments</h5>
+        <p class="text-teal-600 text-center">Easily book appointments online for all departments at your convenience.</p>
+      </div>
+      
+      <div class="flex justify-center items-center flex-col h-fit w-[20%]">
+        <img src="public/images/stethoscope.png" width="40px" alt="Stethoscope">
+        <h5 class="font-bold ">Departments</h5>
+        <p class="text-teal-600 text-center">Discover our wide range of medical departments and specialized services.</p>
+      </div>
+      
+      <div class="flex justify-center items-center flex-col h-fit w-[20%]">
+        <img src="public/images/ambulance.png" width="40px" alt="">
+        <h5 class="font-bold ">Emergency</h5>
+        <p class="text-teal-600 text-center">Immediate, life-saving care available around the clock when you need it most.</p>
+      </div>
+      
+      <div class="flex justify-center items-center flex-col h-fit w-[20%]">
+        <img src="public/images/graduate.png" width="40px" alt="">
+        <h5 class="font-bold ">Students Portal</h5>
+        <p class="text-teal-600 text-center">Access resources and information for our medical education and training programs.</p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Advantages  -->
+
+  <div class="w-full bg-[#fafafb] py-5 flex flex-col justify-center mt-10 items-center h-[20rem]">
+    <h4 class="font-bold text-[2.2rem] mb-5">Why Choose GOU-TH?</h4>
+
+    <div class=" h-fit grid grid-cols-2 grid-rows-2 gap-5">
+      
+      <div class=" flex justify-center w-[30rem] p-3 items-center">
+        <img src="public/images/microscope.png" alt="" width="60px">
+
+        <div class="ml-4">
+
+          <h5 class="font-bold text-[1.2rem]">Advanced tehnology</h5>
+          <p class="text-teal-600 text-[.8rem]">Utilizing the latest medical equipment for precise and rapid diagnosis, ensuring optimal patient outcomes.</p>
+
+        </div>
+
+      </div>
+      
+      <div class=" flex justify-center w-[30rem] p-3 items-center">
+        <img src="public/images/heart-rate.png" alt="" width="60px">
+
+        <div class="ml-4">
+
+          <h5 class="font-bold text-[1.2rem]">Expert Medical Staff</h5>
+          <p class="text-teal-600 text-[.8rem]">Our team of highly skilled doctors and nurses is dedicated to your well-being with compassionate care.</p>
+
+        </div>
+
+      </div>
+      
+      <div class=" flex justify-center w-[30rem] p-3 items-center">
+        <img src="public/images/user.png" alt="" width="60px">
+
+        <div class="ml-4">
+
+          <h5 class="font-bold text-[1.2rem]">Patient Centered Care</h5>
+          <p class="text-teal-600 text-[.8rem]">Personalized treatment plans focused on your unique needs and comfort, enhancing your recovery journey.</p>
+
+        </div>
+
+      </div>
+      
+      <div class=" flex justify-center w-[30rem] p-3 items-center">
+        <img src="public/images/idea.png" alt="" width="60px">
+
+        <div class="ml-4">
+
+          <h5 class="font-bold text-[1.2rem]">Medical Education</h5>
+          <p class="text-teal-600 text-[.8rem]">Innovating for tomorrow by training the next generation of healthcare leaders and researchers.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- News and Events  -->
+
+  <div class="w-full h-[35rem] p-7">
+
+    <div class="w-full p-5 flex justify-between items-center mb-4">
+
+      <h5 class="text-[2.2rem] font-bold">Latest News and Events</h5>
+
+      <button class="rounded-xl p-2 border-1 border-black/50"> View All News &rarr; </button>
+
+    </div>
+
+    <div class=" w-full py-3 flex justify-around items-center">
+
+      <div class="w-[26%] rounded-lg">
+        
+        <img src="public/images/doctor image 1.png" alt="" width="360px" >
+
+        <div class="w-full px-7">
+
+          <h4 class="font-bold text-left text-[1.2rem] mb-3">New Advances in Cardiac Care at HealthLink</h4>
+
+          <p class="text-teal-600 mb-3 text-[,9rem]">October 26, 2023</p>
+
+          <p class="text-teal-600 mb-3 text-[.9rem]">HealthLink Hospital proudly announces the successful implementation of new cutting-edge cardiac treatment protocols...</p>
+
+        </div>
+
+      </div>
+
+      <div class="w-[26%] rounded-lg">
+        
+        <img src="public/images/doctor image 3.png" alt="" width="360px" >
+
+        <div class="w-full px-7">
+
+          <h4 class="font-bold text-left text-[1.2rem] mb-3">Community Outreach Program Expands Services</h4>
+
+          <p class="text-teal-600 mb-3 text-[,9rem]">October 12, 2023</p>
+
+          <p class="text-teal-600 mb-3 text-[.9rem]">HealthLink Hospital's community outreach program is expanding its free health screening and educational workshops...<p>
+
+        </div>
+
+      </div>
+
+      <div class="w-[26%] rounded-lg">
+        
+        <img src="public/images/doctor image 2.png" alt="" width="360px" >
+
+        <div class="w-full px-7">
+
+          <h4 class="font-bold text-left text-[1.2rem] mb-3">Medical Students Shine in Annual Research Symposium</h4>
+
+          <p class="text-teal-600 mb-3 text-[,9rem]">October 29, 2023</p>
+
+          <p class="text-teal-600 mb-3 text-[.9rem]">Our talented medical students presented their innovative research...</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
